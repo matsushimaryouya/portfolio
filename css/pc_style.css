@@ -76,7 +76,6 @@ header{
     margin-bottom: 80px;
     position: relative;
     background-image: url(https://images.unsplash.com/photo-1579623424991-974b8923c7e8?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjYzNDZ9);
-    filter: brightness(0.7);
 }
 #firstSec{
     width: 100%;

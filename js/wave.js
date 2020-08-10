@@ -5,21 +5,21 @@ $(function(){
         height: 10,
         bones: 4,
         amplitude: 10,
-        color: '#0bd',
+        color: '#fff',
         speed: .25
       });
     $('#wave1').wavify({
         height: 15,
         bones: 2,
         amplitude: 25,
-        color: '#0bd',
+        color: '#fff',
         speed: .35
       });
     $('#wave2').wavify({
         height: 15,
         bones: 2,
         amplitude: 25,
-        color: '#0bd',
+        color: '#fff',
         speed: .45
       });
       // $(document).ready(function(){

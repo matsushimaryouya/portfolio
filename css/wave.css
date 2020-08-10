@@ -23,8 +23,8 @@ body .wave_up{
 	height:270px;
 }
 path{
-	opacity:0.2;
-	fill:black;
+	opacity:1;
+	fill:white;
 }
 .title_box{
 	width:100%;
@@ -41,19 +41,20 @@ path{
 }
 .wave_box{
 	width: 100%;
-    height: 454px;
     position: absolute;
-    top: 0px;
     left: 0;
-    overflow: hidden;
+	overflow: hidden;
+	height: 200px;
+    top: 221px;
 }
 .wave_box2{
 	width:100%;
-	height:300px;
+	height:200px;
 	position: absolute;
-	top:-60px;
+	top:-5px;
 	left:0;
 	overflow: hidden;
+	transform: scale(1, -1);
 }
 /* ここからトップ画像 */
 .bc_img{ 
@@ -81,7 +82,7 @@ path{
 body .wave_box #wave{
 	margin-top:70px;;
 	opacity:1;
-	fill:black;
+	fill:white;
 }
 body .wave_box #wave1{
 	margin-top:80px;;
@@ -106,10 +107,6 @@ svg {
   z-index:10;
   fill-opacity: 1;
   transition: 3s;
-}
-
-body .wave{
-	opacity:0.5;
 }
 
 text{
